@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Ropa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #222;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    .nuevo {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de Ropa</h1>
+
+  <!-- Brian Gauto -->
+  <h2>Brian Gauto</h2>
+  <div class="grid">
+    <div class="card"><p>Top de lunares negros <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Pollera hasta las rodillas color beige <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Camisa de fibrana color blanco y marrón <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Vestido de fibrana verde, marrón y blanco <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Vestido de morley gris <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Vestido de fibrana con temática de flora <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Camisa fibrana flora <span class="nuevo">(nuevo)</span></p></div>
+    <div class="card"><p>Bermuda jean azul <span class="nuevo">(nuevo)</span></p></div>
+  </div>
+
+  <!-- Kevin Ramoa -->
+  <h2>Kevin Ramoa</h2>
+  <div class="grid">
+    <div class="card"><p>Buzo blanco de friza con estampa en la espalda</p></div>
+    <div class="card"><p>Campera tejida de hilo blanco y rosa</p></div>
+    <div class="card"><p>Remera rosa manga blanca con estampa adelante color salmón <span class="nuevo">(nueva)</span></p></div>
+    <div class="card"><p>Camisa a cuadros roja, azul y blanca</p></div>
+  </div>
+
+  <!-- Lian Duarte -->
+  <h2>Lian Duarte</h2>
+  <div class="grid">
+    <div class="card"><p>Bermuda blanca</p></div>
+    <div class="card"><p>Remera turquesa lisa, mangas cortas</p></div>
+    <div class="card"><p>Remera marrón con estampa Nike delantera, manga corta</p></div>
+    <div class="card"><p>Chomba gris</p></div>
+    <div class="card"><p>Buzo gris</p></div>
+    <div class="card"><p>Campera negra</p></div>
+  </div>
+
+  <!-- Azul -->
+  <h2>Azul</h2>
+  <div class="grid">
+    <div class="card"><p>Remera gris de niña</p></div>
+    <div class="card"><p>Remera rosa de niña (1)</p></div>
+    <div class="card"><p>Remera rosa de niña (2)</p></div>
+    <div class="card"><p>Remera violeta de niña</p></div>
+    <div class="card"><p>Remera negra de niña</p></div>
+    <div class="card"><p>Remera marrón de niña (1)</p></div>
+    <div class="card"><p>Remera marrón de niña (2)</p></div>
+    <div class="card"><p>Short de jean de niña</p></div>
+  </div>
+
+  <!-- Daniela -->
+  <h2>Daniela</h2>
+  <div class="grid">
+    <div class="card"><p>Blusa bordó con tacha</p></div>
+    <div class="card"><p>Calza pescadora violeta</p></div>
+    <div class="card"><p>Camisa celeste</p></div>
+    <div class="card"><p>Camisa roja</p></div>
+    <div class="card"><p>Blusa marrón</p></div>
+    <div class="card"><p>Pareja de zapatos beige</p></div>
+  </div>
+
+</body>
+</html>
